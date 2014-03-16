@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:src="@drawable/liveblack" />
+
+    <Button
+        android:id="@+id/jouez"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+       	android:textStyle="bold"
+        android:text="Table de jeu" 
+        android:textColor="#990000"/>
+
+    <Button
+        android:id="@+id/regles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="#990000"        
+        android:text="Règles" />
+
+    <Button
+        android:id="@+id/statistiques"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#990000"
+        android:textStyle="bold"        
+        android:text="Strategie" />
+
+</LinearLayout>
