@@ -61,6 +61,7 @@ public class BlackJackActivity extends Activity {
         	}
         };
       
+        // test commit commentaire
         Button buttonStatistiques = (Button) findViewById(R.id.statistiques);
         buttonStatistiques.setOnClickListener(ButtonStatistiques);
         /*---------------------------------------------------------------------*/
